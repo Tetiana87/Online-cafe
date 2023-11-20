@@ -1,0 +1,196 @@
+{
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "products": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 10.99,
+          "toppings": [
+            { "name": "Cheese", "price": 10 },
+            { "name": "Tomato Sauce", "price": 20 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 10 }
+          ],
+          "image": "img/pizza/Margherita-Pizza.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Pepperoni Pizza",
+          "price": 12.99,
+          "toppings": [
+            { "name": "Cheese", "price": 10 },
+            { "name": "Pepperoni", "price": 20 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 10 }
+          ],
+          "image": "img/pizza/Pepperoni-Pizza.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Cheese Pizza",
+          "price": 15.99,
+          "toppings": [
+            { "name": "Tomato Sauce", "price": 10 },
+            { "name": "Pepperoni", "price": 20 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 10 }
+          ],
+          "image": "img/pizza/Cheese-Pizza.jpg"
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "products": [
+        {
+          "id": 4,
+          "name": "Classic Burger",
+          "price": 8.99,
+          "toppings": [
+            { "name": "Lettuce", "price": 15 },
+            { "name": "Tomato", "price": 5 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 5 }
+          ],
+          "image": "img/burgers/Classic-Burger.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Cheeseburger",
+          "price": 9.99,
+          "toppings": [
+            { "name": "Lettuce", "price": 15 },
+            { "name": "Cheese", "price": 10 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 5 }
+          ],
+          "image": "img/burgers/Cheeseburger.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Burger",
+          "price": 12.99,
+          "toppings": [
+            { "name": "Tomato", "price": 15 },
+            { "name": "Cheese", "price": 10 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 5 }
+          ],
+          "image": "img/burgers/Burger.jpg"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "products": [
+        {
+          "id": 7,
+          "name": "Soda",
+          "price": 40,
+          "toppings": [
+            { "name": "Lemon", "price": 10 },
+            { "name": "Ice", "price": 15 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 5 }
+          ],
+          "image": "img/drinks/Soda.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Iced Tea",
+          "price": 50,
+          "toppings": [
+            { "name": "Red tea", "price": 10 },
+            { "name": "Green tea", "price": 15 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 5 }
+          ],
+          "image": "img/drinks/Iced-Tea.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Iced Coffee",
+          "price": 60,
+          "toppings": [
+            { "name": "Cinnamon", "price": 10 },
+            { "name": "Chocolate", "price": 15 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 10 }
+          ],
+          "image": "img/drinks/Iced-Coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "Sweets",
+      "products": [
+        {
+          "id": 10,
+          "name": "Chocolate Cake",
+          "price": 5.99,
+          "toppings": [
+            { "name": "Chocolate Frosting", "price": 30 },
+            { "name": "Sprinkles", "price": 10 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 15 }
+          ],
+          "image": "img/sweets/Chocolate-Cake.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Cheesecake",
+          "price": 6.49,
+          "toppings": [
+            { "name": "Strawberry Sauce", "price": 20 },
+            { "name": "Whipped Cream", "price": 15 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 15 }
+          ],
+          "image": "img/sweets/Cheesecake.jpg"
+        },
+        {
+          "id": 12,
+          "name": "White Cake",
+          "price": 8.49,
+          "toppings": [
+            { "name": "Chocolate", "price": 20 },
+            { "name": "Whipped Cream", "price": 15 }
+          ],
+          "sizes": [
+            { "name": "Small", "price": 0 },
+            { "name": "Large", "price": 15 }
+          ],
+          "image": "img/sweets/White-Cake.jpg"
+        }
+      ]
+    }
+  ]
+}
